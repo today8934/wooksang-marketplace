@@ -1,0 +1,18 @@
+# Claude Code local settings
+.claude/*.local.md
+.claude/settings.local.json
+
+# oh-my-claudecode runtime state
+.omc/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
