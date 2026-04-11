@@ -17,6 +17,7 @@ Claude Code 세션에서:
 | 이름 | 설명 | Repo |
 |---|---|---|
 | `overnight-market-report-plugin` | 간밤 미국 증시·국제정세를 한국장 개장 전 브리핑용 한국어 마크다운 리포트로 생성 (전문가용 + 입문자용 두 파일 자동 생성) | [`today8934/overnight-market-report-plugin`](https://github.com/today8934/overnight-market-report-plugin) |
+| `arsenal-brief-plugin` | 아스날 FC 최신 뉴스·경기·부상·대회·이적 루머를 한국어로 요약 브리핑 (채팅 출력 전용) | [`today8934/arsenal-brief-plugin`](https://github.com/today8934/arsenal-brief-plugin) |
 
 각 플러그인의 **API 키 설정·사용법·트러블슈팅**은 해당 plugin repo의 README를 참고하세요.
 
