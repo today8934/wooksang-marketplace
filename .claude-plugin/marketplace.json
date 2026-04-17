@@ -12,8 +12,8 @@
         "source": "github",
         "repo": "today8934/overnight-market-report-plugin"
       },
-      "description": "간밤 미국 증시와 국제정세를 finnhub·alphavantage·Tavily·WebSearch로 수집·분석해 한국장 개장 전 브리핑용 한국어 마크다운 보고서를 생성합니다. 전문가용 원본 리포트와 주식 입문자용 쉬운버전 두 파일을 자동 생성.",
-      "version": "0.2.1"
+      "description": "간밤 미국 증시와 국제정세를 finnhub·alphavantage·Tavily·WebSearch로 수집·분석해 한국장 개장 전 브리핑용 한국어 마크다운 보고서를 생성합니다. 3-Tier 티커 유니버스(always-on + 테마/이벤트 트리거), preflight 24h 캐싱, 섹터 로테이션 자동 라벨, 전일 대비 diff, YAML frontmatter 메타. 전문가용 원본 + 주식 입문자용 쉬운버전 2파일 자동 생성.",
+      "version": "0.3.0"
     },
     {
       "name": "arsenal-brief-plugin",
