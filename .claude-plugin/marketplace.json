@@ -41,6 +41,15 @@
       },
       "description": "글로벌(HN·GitHub Trending·Product Hunt) + 한국(GeekNews·테크 매체) hot 신호를 cross-reference해 SW 엔지니어용 한국어 일일 브리핑·주간 다이제스트를 생성합니다. 2-tier source 구조, URL canonical dedupe, 도메인별 키워드 분류·tilt, 시계열 carryover 안정성, vault frontmatter 기반 weekly 롤업.",
       "version": "0.1.0"
+    },
+    {
+      "name": "musinsa-brief-plugin",
+      "source": {
+        "source": "github",
+        "repo": "today8934/musinsa-brief-plugin"
+      },
+      "description": "무신사 자사·경쟁사·입점·규제·인사·트렌드를 7 카테고리로 병렬 수집해 Obsidian vault에 한국어 보고서로 저장",
+      "version": "0.1.0"
     }
   ]
 }
