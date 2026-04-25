@@ -23,6 +23,15 @@
       },
       "description": "아스날 FC 최신 뉴스·경기결과·부상·대회현황·이적루머를 Tavily·WebSearch·WebFetch로 병렬 수집해 한국어로 요약 브리핑하는 채팅 출력 전용 스킬.",
       "version": "0.1.0"
+    },
+    {
+      "name": "backend-jobs-brief-plugin",
+      "source": {
+        "source": "github",
+        "repo": "today8934/backend-jobs-brief-plugin"
+      },
+      "description": "한국 IT 백엔드/서버/인프라(SRE·DevOps·Platform·Cloud) 직군 채용 동향과 주요 회사(빅테크·미드·주요 스타트업 ~30개) 채용 공고를 Tavily·WebSearch·WebFetch로 병렬 수집해 한국어 마크다운 브리핑을 생성합니다. 주간(default) + 월간 듀얼 모드, vault 누적 저장으로 추후 분기 digest 확장 가능.",
+      "version": "0.1.0"
     }
   ]
 }
