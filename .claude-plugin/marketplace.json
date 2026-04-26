@@ -49,7 +49,7 @@
         "repo": "today8934/musinsa-brief-plugin"
       },
       "description": "무신사 자사·경쟁사·입점·규제·인사·트렌드를 7 카테고리로 병렬 수집해 Obsidian vault에 한국어 보고서로 저장",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
