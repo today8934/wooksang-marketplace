@@ -51,6 +51,15 @@
       },
       "description": "무신사 자사·경쟁사·입점·규제·인사·트렌드를 7 카테고리로 병렬 수집해 Obsidian vault에 한국어 보고서로 저장",
       "version": "0.1.1"
+    },
+    {
+      "name": "kr-market-report-plugin",
+      "source": {
+        "source": "github",
+        "repo": "today8934/kr-market-report-plugin"
+      },
+      "description": "직전 마감된 한국 정규장(코스피+코스닥) 1세션을 한국어 마크다운으로 회고하는 자동 브리핑 생성기. finnhub(시세) + pykrx(외국인/기관 수급·KRX 업종·공매도) + Tavily(뉴스) + alphavantage(USD/KRW) 하이브리드. 수급 라벨 자동 결정, 인과 분석 [[n]](url) 출처 링크, 전문가용 + 입문자용 두 파일 자동 생성.",
+      "version": "0.1.0"
     }
   ]
 }
