@@ -12,8 +12,8 @@
         "source": "github",
         "repo": "today8934/overnight-market-report-plugin"
       },
-      "description": "간밤 미국 증시와 국제정세를 finnhub·alphavantage·Tavily·WebSearch로 수집·분석해 한국장 개장 전 브리핑용 한국어 마크다운 보고서를 생성합니다. 3-Tier 티커 유니버스(always-on 31개 + 테마/이벤트 트리거), mode별 diff 분기(initial/intraday_refresh/next_day), inline preflight, 주요 종목 필터 + 전체 티커 collapse, 출처 번호 normalize + YAML sources 구조화, 주간/월간 롤업 skill(overnight-weekly-digest). 전문가용 원본 + 주식 입문자용 쉬운버전 2파일 자동 생성.",
-      "version": "0.4.0"
+      "description": "간밤 미국 증시와 국제정세를 finnhub·alphavantage·Tavily·WebSearch로 수집·분석해 한국장 개장 전 브리핑용 한국어 마크다운 보고서를 생성합니다. 3-Tier 티커 유니버스(always-on 31개 + 테마/이벤트 트리거), mode별 diff 분기(initial/intraday_refresh/next_day), inline preflight, 주요 종목 필터 + 전체 티커 collapse, 출처 번호 normalize + YAML sources 구조화, 주간/월간 롤업 skill(overnight-weekly-digest). 전문가용 원본 + 주식 입문자용 쉬운버전 2파일 자동 생성. v0.5.0부터 산출물 default 경로가 ~/workspace/wooksang-marketplace-documents/overnight-market-report/ 로 통합.",
+      "version": "0.5.0"
     },
     {
       "name": "arsenal-brief-plugin",
@@ -30,8 +30,8 @@
         "source": "github",
         "repo": "today8934/backend-jobs-brief-plugin"
       },
-      "description": "한국 IT 백엔드/서버/인프라(SRE·DevOps·Platform·Cloud) 직군 채용 동향과 주요 회사(빅테크·미드·주요 스타트업 ~30개) 채용 공고를 Tavily·WebSearch·WebFetch로 병렬 수집해 한국어 마크다운 브리핑을 생성합니다. 주간(default) + 월간 듀얼 모드, vault 누적 저장으로 추후 분기 digest 확장 가능.",
-      "version": "0.1.0"
+      "description": "한국 IT 백엔드/서버/인프라(SRE·DevOps·Platform·Cloud) 직군 채용 동향과 주요 회사(빅테크·미드·주요 스타트업 ~30개) 채용 공고를 Tavily·WebSearch·WebFetch로 병렬 수집해 한국어 마크다운 브리핑을 생성합니다. 주간(default) + 월간 듀얼 모드, vault 누적 저장으로 추후 분기 digest 확장 가능. v0.2.0부터 산출물 default 경로가 ~/workspace/wooksang-marketplace-documents/backend-jobs-brief/ 로 통합.",
+      "version": "0.2.0"
     },
     {
       "name": "tech-brief-plugin",
@@ -39,18 +39,18 @@
         "source": "github",
         "repo": "today8934/tech-brief-plugin"
       },
-      "description": "글로벌(HN·GitHub Trending·Product Hunt) + 한국(GeekNews·테크 매체) hot 신호를 cross-reference해 SW 엔지니어용 한국어 일일 브리핑·주간 다이제스트를 생성합니다. 2-tier source 구조, URL canonical dedupe, 도메인별 키워드 분류·tilt, 시계열 carryover 안정성, vault frontmatter 기반 weekly 롤업.",
-      "version": "0.1.0"
+      "description": "글로벌(HN·GitHub Trending·Product Hunt) + 한국(GeekNews·테크 매체) hot 신호를 cross-reference해 SW 엔지니어용 한국어 일일 브리핑·주간 다이제스트를 생성합니다. 2-tier source 구조, URL canonical dedupe, 도메인별 키워드 분류·tilt, 시계열 carryover 안정성, vault frontmatter 기반 weekly 롤업. v0.2.0부터 산출물 default 경로가 ~/workspace/wooksang-marketplace-documents/tech-brief/ 로 통합.",
+      "version": "0.2.0"
     },
     {
       "name": "musinsa-brief-plugin",
       "source": {
         "source": "github",
         "repo": "today8934/musinsa-brief-plugin",
-        "ref": "v0.1.1"
+        "ref": "v0.2.0"
       },
-      "description": "무신사 자사·경쟁사·입점·규제·인사·트렌드를 7 카테고리로 병렬 수집해 Obsidian vault에 한국어 보고서로 저장",
-      "version": "0.1.1"
+      "description": "무신사 자사·경쟁사·입점·규제·인사·트렌드를 7 카테고리로 병렬 수집해 한국어 보고서로 저장. v0.2.0부터 산출물 default 경로가 ~/workspace/wooksang-marketplace-documents/musinsa-brief/ 로 통합 (Obsidian vault는 config.json output_dir로 override).",
+      "version": "0.2.0"
     },
     {
       "name": "kr-market-report-plugin",
@@ -58,8 +58,8 @@
         "source": "github",
         "repo": "today8934/kr-market-report-plugin"
       },
-      "description": "직전 마감된 한국 정규장(코스피+코스닥) 1세션을 한국어 마크다운으로 회고하는 자동 브리핑 생성기. finnhub(시세) + pykrx(외국인/기관 수급·KRX 업종·공매도) + Tavily(뉴스) + alphavantage(USD/KRW) 하이브리드. 수급 라벨 자동 결정, 인과 분석 [[n]](url) 출처 링크, 전문가용 + 입문자용 두 파일 자동 생성.",
-      "version": "0.1.0"
+      "description": "직전 마감된 한국 정규장(코스피+코스닥) 1세션을 한국어 마크다운으로 회고하는 자동 브리핑 생성기. finnhub(시세) + pykrx(외국인/기관 수급·KRX 업종·공매도) + Tavily(뉴스) + alphavantage(USD/KRW) 하이브리드. 수급 라벨 자동 결정, 인과 분석 [[n]](url) 출처 링크, 전문가용 + 입문자용 두 파일 자동 생성. v0.2.0부터 산출물 default 경로가 ~/workspace/wooksang-marketplace-documents/kr-market-report/ 로 통합.",
+      "version": "0.2.0"
     }
   ]
 }
